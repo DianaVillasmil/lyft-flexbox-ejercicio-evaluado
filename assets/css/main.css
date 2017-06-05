@@ -13,13 +13,24 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+
+
 nav {
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 
-nav logo {
+nav.white {
+	background-color: white;
+}
 
+nav > * > * {
+	margin: 10px;
 }
 
 nav menu {
@@ -33,6 +44,10 @@ nav img {
 nav a {
 	text-decoration: none;
 	color: white;
+}
+
+nav.white a {
+	color: #333447;
 }
 
 .boton-login {
@@ -57,4 +72,57 @@ nav a {
 .flex-container {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+}
+
+header {
+	background-color: #180f2d;
+	position: relative;
+}
+
+header video {
+	background-color: #180f2d;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+.header-text {
+	width: 40%;
+	margin-left: auto;
+	margin-top: 100px;
+	height: 400px;
+	background-color: green;
+	z-index: 2;
+}
+
+
+.info {
+	background: linear-gradient(to bottom, rgba(101,14,130,0) 0px, rgba(101,14,130,1) 100px, rgba(45,31,106,1) 100%);
+	margin-top: -100px;
+	padding-top: 100px;
+	z-index: 1;
+	position: absolute;
+	color: white;
+}
+
+.info > * {
+	flex-direction: column;
+	width: 50%;
+	justify-content: flex-start;
+	margin: 100px;
+}
+
+.info > * > p {
+	margin: 10px 0 50px;
+}
+
+.info .phone {
+	background-image: url('../img/phone.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
