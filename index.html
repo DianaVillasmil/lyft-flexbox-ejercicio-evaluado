@@ -1,51 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Lyft-flexbox</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-	<nav class="flex-container white">
-		<logo>
-			<img src="assets/img/logo-pink.png">
-			<img src="assets/img/logo-white.png">
-		</logo>
-		<menu>
-			<a href="#" class="drive link">Drive</a>
-			<a href="#" class="explore link">Explore</a>
-			<a href="#" class="help link">Help</a>
-			<button class="boton-login">Log in</button>
-			<button class="boton-signup">Sign up</button>
-		</menu>
-	</nav>
-	<header class="flex-container header">
-		<video autoplay loop>
-		  <source src="assets/img/hero-video.mp4" type="video/mp4">
-		Tu navegador no soporta la etiqueta video.
-		</video>
-		<div class="header-text">
-			abc
-		</div>	
-	</header>
-	<section class="flex-container info">
-		<div class="flex-container">
-			<h2 class="text-uppercase">
-			a ride in minutes
-			</h1>
-			<p>Request a ride and you'll be on your way in minutes.<br/>Request. Ride. Repeat.</p>
-			<h2 class="text-uppercase">
-			serious about safety
-			</h2>
-			<p>From knowing the color of your driver's car to our 24/7 Trust & Safety Team, we got you.</p>
-			<h2 class="text-uppercase">
-			happy drivers.<br/>happy riders.
-			</h2>
-			<p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
-		</div>
-		<div class="phone">
-		</div>
-	</section>
 
+<head>
+    <title>Lyft-flexbox</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <nav class="flex-container white">
+        <logo>
+            <a href="#">
+				<img src="assets/img/logo-white.png" class="white">
+			</a>
+            <a href="#">
+				<img src="assets/img/logo-pink.png" class="pink">	
+			</a>
+        </logo>
+        <menu>
+            <a href="#" class="drive link">Drive</a>
+            <a href="#" class="explore link">Explore</a>
+            <a href="#" class="help link">Help</a>
+            <button class="boton-login">Log in</button>
+            <button class="boton-signup">Sign up</button>
+        </menu>
+    </nav>
+    <header class="flex-container header">
+        <video autoplay loop>
+            <source src="assets/img/hero-video.mp4" type="video/mp4"> Tu navegador no soporta la etiqueta video.
+        </video>
+        <div class="header-text">
+            abc
+        </div>
+    </header>
+    <section class="flex-container info">
+        <div class="flex-container">
+            <h2 class="text-uppercase">
+                a ride in minutes
+                </h1>
+                <p>Request a ride and you'll be on your way in minutes.<br/>Request. Ride. Repeat.</p>
+                <h2 class="text-uppercase">
+                    serious about safety
+                </h2>
+                <p>From knowing the color of your driver's car to our 24/7 Trust & Safety Team, we got you.</p>
+                <h2 class="text-uppercase">
+                    happy drivers.<br/>happy riders.
+                </h2>
+                <p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
+        </div>
+        <div class="phone">
+        </div>
+    </section>
+    <section class="flex-container amplify">
+        <div class="flex-container">
+            <p class="text-uppercase">watch</p>
+            <h2 class="text-uppercase">
+                amplify your ride
+            </h2>
+            <p>Lyft's new emblem, Amp, is the secret to smooth pickups.Lighting up dashboards nationwide, the device makes it
+                easy for passengers and drivers to find each other.</p>
+        </div>
+        <div class="videocontainer">
+            <div class="aspectfix">
+                <iframe class="video1" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class=" flex-container june">
+        <div class="videocontainer">
+            <div class="aspectfix">
+                <iframe class="video2" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="flex-container">
+            <p class="text-uppercase">watch</p>
+            <h2 class="text-uppercase">
+                june
+            </h2>
+            <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empoweredto
+                start sharing the ride-and sharing her life, too.</p>
+        </div>
+    </section>
+    <section class="flex-container goodthing">
+        <div class="flex-container">
+            <p class="text-uppercase">watch</p>
+            <h2 class="text-uppercase">
+                A Good Thing Going
+            </h2>
+            <p>Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short
+                ETAs, and safety. The four spots feature a puzzled trio of executives who just can't understand Lyft's commitment
+                to putting people first. The lighthearted campaign reflects our serious dedication to treating both drivers
+                and passengers better.</p>
+        </div>
+        <div class="videocontainer">
+            <div class="aspectfix">
+                <iframe class="video3" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
