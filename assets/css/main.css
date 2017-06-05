@@ -101,15 +101,6 @@ nav.white button.boton-signup {
 	transition: all 1s ease;
 }
 
-
-
-
-
-
-
-
-
-
 .flex-container {
 	display: flex;
 	justify-content: space-between;
@@ -170,9 +161,9 @@ header video {
 .june .flex-container, 
 .goodthing .flex-container {
 	flex-direction: column;
-	width: 50%;
+	width: 30%;
 	justify-content: flex-start;
-	margin: 100px;
+	margin: 50px;
 }
 
 .amplify h2, 
@@ -184,8 +175,7 @@ header video {
 
 .videocontainer {
 	position: relative;
-	margin: 100px;
-	width: 50%;
+	width: 70%;
 }
 
 .aspectfix {
@@ -203,5 +193,61 @@ header video {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+footer {
+	background-color: #333447;
+	color: #bfc7d9;
+}
+
+.inicio, .socio, .aprender, .etiqueta {
+	flex-direction: column;
+	width: 30%;
+	justify-content: flex-start;
+	margin: 50px;
+}
+
+.etiqueta img {
+	width: 150px;
+
+}
+
+
+footer {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+
+footer > * {
+	margin: 0 auto;
+}
+
+footer .pie a,
+footer .terms a,
+footer img {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	color: #bfc7d9;
+}
+
+footer .pie a {
+	display: block;
+}
+
+
+footer .social a i {
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  border-width: 3px;
+  border-color: #bfc7d9;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #bfc7d9;
+  text-align: center;
 }
 
